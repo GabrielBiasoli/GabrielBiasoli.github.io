@@ -1,0 +1,59 @@
+.title-port {
+    color: #548687;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 350;
+}
+
+#profile_picture{
+        width: 30%;
+        border: 8px solid #473335 ;
+        display: block;
+        margin: 0 auto;
+    }
+
+.profile-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+body {
+    background-color: #FFFFC7;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #548687;
+}
+
+.subtitles-color {
+    color: #473335;
+}
+
+.diviser-1 {
+    background-color: #B0413E;
+    height: 2px;
+    margin: -16px 390px 0px;
+    border-radius: 70%;
+}
+
+.diviser-2 {
+    background-color: #B0413E;
+    height: 2px;
+    margin: 20px 530px;
+    border-radius: 100%;
+}
+
+.diviser-default {
+    background-color: #B0413E;
+    height: 4px;
+    border-width: 5px;
+}
+
+#descricao {
+    color: #473335;
+    font-family: monospace;
+    font-size: 15px;
+}
