@@ -3,41 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio do Gabriel</title>
+    <title>Portfolio Biasoli</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h2>Potfólio do Gabriel</h2>
-    <hr>
-    <h3>Índice:</h3>
-    <a href="#descricao">Sobre mim</a><br><br>
-    <a href="#habilidades">Habilidades</a><br><br>
-    <a href="#gostos">Coisas que recomendo</a><br><br><br>
-    <hr>
-    <img id="foto_perfil"
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQG7iBA7hU5S8A/profile-displayphoto-shrink_800_800/0/1620250661241?e=1626307200&v=beta&t=u6qu9hW4vJ_Z6b-UvZG-HpvT9Ot8rupQX4lXcUENTSo"
-        width="400px" alt="Foto do dono do portifólio">
-    <h3>Gabriel Eduardo Biasoli</h3>
-    <h4 color="gray">biel</h4>
-    <p id="descricao">Olá, meu nome é Gabriel e eu tenho 19 anos. Sou brasileiro e atualmente estou morando no interior
-        do Paraná, na
-        cidade de Missal. </p><br><br>
-    <hr>
-    <h3 id="habilidades">Habilidades</h3>
-    <ul>
-        <li>Empatia</li>
-        <li>Autoconhecimento</li>
-    </ul>
-    <br><br>
-    <a href="#foto_perfil">Veja a foto de perfil :)</a>
-    <br><br><br><br>
-    <hr>
-    <h3 id="gostos">Algumas coisas que gosto:</h3>
-    <ul>
-        <em>
-            <li><a href="https://www.youtube.com/watch?v=5qap5aO4i9A" target="_blank">Lofi Girl's radio</a></li>
-        </em>
-    </ul>
+
+    <div class="footer-index">
+        <h3>Índice</h3>
+
+
+        <div class="index-list">
+            <a href="#descricao">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#gostos">Recomendações</a>
+        </div>
+
+    </div>
+
+    <hr class="diviser-default">
+
+    <div class="header">
+        <h2 class="title-name">Gabriel Biasoli</h2>
+    </div>
+    <hr class="diviser-1">
+    <hr class="diviser-2">
+
+    <div class="perfil-box">
+        <img id="profile_picture" src="profile.jpeg" alt="Foto do dono do portifólio">
+        <div class="text-description">
+            <h3 class="profile-name">Gabriel Eduardo Biasoli</h3>
+            <p id="description">Olá! Meu nome é Gabriel e tenho 19 anos. Sou <strong>brasileiro </strong>e atualmente
+                estou
+                morando no interior
+                do <strong>Paraná</strong>, na
+                cidade de <strong>Missal</strong>.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="habilities-box">
+        <h3 id="habilidades" class="subtitles">Habilidades</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+
+
+    <div class="list-section">
+        <h3 class="subtitles" id="gostos">Algumas coisas que gosto</h3>
+        <ul>
+            <em>
+                <li><a href="https://www.youtube.com/watch?v=5qap5aO4i9A" target="_blank">Lofi Girl's radio</a></li>
+            </em>
+        </ul>
+    </div>
+
+    <div class="footer-index">
+        <div class="footer-content">
+            <a href="https://www.linkedin.com/in/gbiasoli/"><img class="icon-image" src="linkedin.png"
+                    alt="Linkedin"></a>
+            <a href="https://www.instagram.com/bielbiasoli33/"><img class="icon-image" src="instagram.png"
+                    alt="Instagram"></a>
+            <a href="https://github.com/GabrielBiasoli"><img class="icon-image" src="github.png" alt="Github"></a>
+        </div>
+    </div>
 </body>
 
 </html>

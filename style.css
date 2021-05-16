@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+body {
+    background-color: #FFFFC7;
+    font-size: 17px;
+}
+
+
+.title-name {
+    color: #0ea19c;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 350;
+    margin: 40px 0px 20px;
+}
+
+
+#profile_picture{
+    width: 387px;
+    border: 8px groove #473335 ;
+    margin: 0px 0px 20px 15%;
+    float: left;
+}
+
+
+.profile-name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 25px;
+    color: #3DCCC7;
+}
+
+
+a {
+    text-decoration: none;
+    color: #3DCCC7;
+}
+
+
+a:hover{
+    color: rgb(18, 235, 18);
+}
+
+
+.diviser-1 {
+    background-color: #B0413E;
+    color: #B0413E;
+    height: 2px;
+    margin: -16px 390px 0px;
+    border-radius: 70%;
+}
+
+
+.diviser-2 {
+    background-color: #B0413E;
+    color: #B0413E;
+    height: 2px;
+    margin: 20px 530px 120px;
+    border-radius: 100%;
+}
+
+
+.diviser-default {
+    border-bottom: 5px ridge #B0413E;
+    border-top: hidden;
+}
+
+
+.perfil-box{
+    height: 480px;
+    margin-bottom: 120px;
+}
+
+
+.text-description{
+    background-color: #B0413E;
+    border: 6px ridge #473335;
+    float: right;
+    text-align: justify;
+    max-width: 27%;
+    padding: 10px;
+    margin: 24% 15% 0px 0px;
+}
+
+
+#description {
+    color: #fff;
+    font-family: monospace;
+    font-size: 15px;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.list-section{
+    height: 300px;
+    text-align: center;
+    background-color: #FFFF99;
+}
+
+
+.habilities-box{
+    background-color: #FFFFAD;
+    text-align: center;
+    height: 300px;
+}
+
+.habilities-box ul li{
+    color: #568A8A;
+}
+
+
+.subtitles{
+    color: #473335;
+    font-size: 26px;
+    margin: 0px 0px 10px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.footer-index{
+    background-color: #B0413E;
+    padding: 20px 20px;
+    margin: 0px auto 0px;
+    border-bottom: 5px ridge #B0413E;
+    border-top: 5px ridge #B0413E;
+    min-height: 80px;
+    color: #fff;
+}
+
+
+.footer-index img{
+    width: 30px;
+    margin: 2px;
+    display: inline-block;
+}
+
+
+.footer-content{
+    border: 9px ridge #B0413E;
+    background-color: #FCAA67;
+    margin: 10px auto 0px;
+    width: 9%;
+}
+
+
+.footer-index h3{
+    margin: 0px 0px 2% 0%;
+    text-align: center;
+}
+
+
+.index-list{
+    margin: 0 auto;
+    max-width: 468px;
+}
+
+
+.index-list a{
+    margin: 0px 0px 0px 40px;
+    padding: 10px 12px;
+    background-color: #473335;
+    border-radius: 5px;
+}
+
+
+
+
+.header{
+    display: block;
+}
+
+
